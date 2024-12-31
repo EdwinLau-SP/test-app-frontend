@@ -1,0 +1,59 @@
+{
+  "name": "demo-app",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^13.0.0",
+    "@supabase/supabase-js": "^2.47.10",
+    "cra-template": "1.2.0",
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^2.1.5",
+    "koa": "^2.15.3",
+    "koa-cors": "^0.0.16",
+    "koa-logger": "^3.2.1",
+    "koa-session": "^6.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "node-fetch": "^3.3.2",
+    "node-jose": "^2.2.0",
+    "openid-client": "^5.6.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^4.2.4"
+  },
+  "devDependencies": {
+    "prettier": "latest"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
